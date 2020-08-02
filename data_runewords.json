@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Breath of the Dying",
+        "type": "weapon",
+        "base": "Short Axe,Hand Axe,Wood Cutter,Flail,Hammer 1H",
+        "runes": "Lem,Jah,Drax,Hel,Lem,Xeo"
+    },
+    {
+        "name": "Sleight",
+        "type": "weapon",
+        "base": "Crossbow",
+        "runes": "Fem,Fox,Nol,Drax,Efoel"
+    },
+    {
+        "name": "Windstride",
+        "type": "weapon",
+        "base": "Longbow",
+        "runes": "Hae,Jah,Nut,Fem,Def"
+    },
+    {
+        "name": "Potency",
+        "type": "weapon",
+        "base": "Short war bow",
+        "runes": "Def,Nut,Ox,Voj,Wii,Dau"
+    },
+    {
+        "name": "Ravager",
+        "type": "weapon",
+        "base": "2h weapon",
+        "runes": "Von,Ham,Yeet,Dau,Def,Aux"
+    },
+    {
+        "name": "Perdition",
+        "type": "weapon",
+        "base": "1h sword or axe",
+        "runes": "Jex,Aux,Jah,Yeet"
+    },
+    {
+        "name": "Judge",
+        "type": "weapon",
+        "base": "1h hammer",
+        "runes": "Hae,Drax,Efoel,Nut,Rex"
+    },
+    {
+        "name": "Kogarasumaru",
+        "type": "weapon",
+        "base": "2h katana",
+        "runes": "Jah,Tun,Def,Sal,Wii,Wii"
+    },
+    {
+        "name": "BigJoe",
+        "type": "weapon",
+        "base": "Chainsaw",
+        "runes": "Def,Dau,Fem,Yeet,Yeet,Jah"
+    },
+    {
+        "name": "Valkyrie",
+        "type": "weapon",
+        "base": "1h javelin",
+        "runes": "Yeet,Lem,Def,Co,Nut"
+    },
+    {
+        "name": "Preacher",
+        "type": "weapon",
+        "base": "Book",
+        "runes": "Ber,Lux,Vex,Ist"
+    },
+    {
+        "name": "Catastrophe",
+        "type": "weapon",
+        "base": "2h staff",
+        "runes": "Ist,Yeet,Vex,Def,Ist,Fio"
+    },
+    {
+        "name": "Will of Thanos",
+        "type": "weapon",
+        "base": "2h Staff",
+        "runes": "Lem,Ist,Ist,Efoel,Rex,Lem"
+    },
+    {
+        "name": "Revelation",
+        "type": "weapon",
+        "base": "Book",
+        "runes": "Aux,Ham,Ist,Von,Hyg"
+    },
+    {
+        "name": "Ascendancy",
+        "type": "weapon",
+        "base": "Dagger",
+        "runes": "Ist,Lux,Wei"
+    },
+    {
+        "name": "Mjolner",
+        "type": "weapon",
+        "base": "1h hammer",
+        "runes": "Jex,Jex,Ist,Jex,Rex"
+    },
+    {
+        "name": "Sovereignty",
+        "type": "weapon",
+        "base": "1h spellblade",
+        "runes": "Vex,Wei,Lux,Ist,Ist,Lux"
+    },
+    {
+        "name": "Bristle",
+        "type": "armor",
+        "base": "Hauberk,Cuirass,Scarab Plate",
+        "runes": "Bo,Efoel,Rex,Nut,Ox"
+    },
+    {
+        "name": "Gladstone Goose's Jacket",
+        "type": "armor",
+        "base": "Quitted armor,Demonhide armor,Trellised armor",
+        "runes": "Hyg,Hel,Hyg,Hel,Ist,Hyg"
+    },
+    {
+        "name": "Mayhem",
+        "type": "armor",
+        "base": "Viperhide armor,Leather coat,Serpenthide armor",
+        "runes": "Fio,Dau,Wii,Def,Von,Dam"
+    },
+    {
+        "name": "Shroud of Elements",
+        "type": "armor",
+        "base": "Viperhide armor,Serpenthide armor,Leather coat",
+        "runes": "Ham,Aux,Jex,Lem,Yeet"
+    },
+    {
+        "name": "Enigmatic",
+        "type": "armor",
+        "base": "Hard leather Armor,studded Leather,Dusk Shroud",
+        "runes": "Lux,Vex,Ist"
+    },
+    {
+        "name": "Force",
+        "type": "armor",
+        "base": "Hauberk,Scarab plate,Cuirass",
+        "runes": "Hae,Von,Dau,Ox,Jah,Zod"
+    },
+    {
+        "name": "Fortress",
+        "type": "armor",
+        "base": "Steel armor,Templar coat,Sharktooth armor",
+        "runes": "Efoel,Rex,Rex,Fem,Bo,Fox"
+    },
+    {
+        "name": "Enigma",
+        "type": "armor",
+        "base": "Hard leather armor,Studded leather,Dusk shroud",
+        "runes": "Ist,Zod,Gul"
+    },
+    {
+        "name": "Rainbow",
+        "type": "charms",
+        "base": "Any",
+        "runes": "Ber,Ham,Ber,Vex"
+    },
+    {
+        "name": "Havoc",
+        "type": "charms",
+        "base": "Any",
+        "runes": "Ber,Wii,Qi,Dam"
+    },
+    {
+        "name": "Mirage",
+        "type": "shields",
+        "base": "Any",
+        "runes": "Gul,Lem,Yeet,Rex,Ist"
+    },
+    {
+        "name": "Shelter",
+        "type": "shields",
+        "base": "Any",
+        "runes": "Rex,Xeo,Fem,Xeo,Ber"
+    },
+    {
+        "name": "Arcane Bastion",
+        "type": "shields",
+        "base": "Any",
+        "runes": "Vom,Lem,Lem,Ist,Lux"
+    },
+    {
+        "name": "Soulbraces",
+        "type": "gloves",
+        "base": "Any",
+        "runes": "Lux,Wei,Ist"
+    },
+    {
+        "name": "Breach Gauntlets",
+        "type": "gloves",
+        "base": "Any",
+        "runes": "Ox,Von,Wii"
+    },
+    {
+        "name": "Quickstep",
+        "type": "boots",
+        "base": "Any",
+        "runes": "Drax,Qi"
+    },
+    {
+        "name": "Thinking cap",
+        "type": "helmet",
+        "base": "Cap,War hat,Shako",
+        "runes": "Ye,Wei,Tun,Vex"
+    },
+    {
+        "name": "Lightforge",
+        "type": "helmet",
+        "base": "Hydraskull,Sallet,Skull cap",
+        "runes": "Jah,Tun,Ox,Wii"
+    },
+    {
+        "name": "Scholar",
+        "type": "helmet",
+        "base": "Cap,War hat,Shako",
+        "runes": "Wei,Co,Xeo"
+    }
+]
