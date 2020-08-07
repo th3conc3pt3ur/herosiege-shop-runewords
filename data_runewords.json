@@ -141,78 +141,237 @@
         "name": "Fortress",
         "type": "armor",
         "base": "Steel armor,Templar coat,Sharktooth armor",
-        "runes": "Efoel,Rex,Rex,Fem,Bo,Fox"
+        "runes": "Efoel,Rex,Rex,Fem,Bo,Fox",
+        "stats": {
+            "armor":  11100,
+            "armor_p":  20,
+            "stamina":  7000,
+            "reduction":  10,
+            "hp_rep":  1825,
+            "hp_rep_p":  5,
+            "mana_per_hit":  1,
+            "life_per_hit":  2,
+            "block":  15,
+            "dodge":  15,
+            "all_resist":  20,
+            "max_all_resist":  2,
+            "lootProperties[10]" : 6,
+            "effect_off_level" : 5
+        }
     },
     {
         "name": "Enigma",
         "type": "armor",
         "base": "Hard leather armor,Studded leather,Dusk shroud",
-        "runes": "Ist,Zod,Gul"
+        "runes": "Ist,Zod,Gul",
+        "stats": {
+            "armor" : 3350,
+            "all_stats" : 2100,
+            "all_stats_p" : 15,
+            "all_talents" : 4,
+            "hp_p" : 10,
+            "speed" : 20,
+            "mana_per_hit" : 1,
+            "reduction" : 20,
+            "all_resist" : 25,
+            "effect_off" : 43,
+            "effect_off_level": 5
+        }
     },
     {
         "name": "Rainbow",
         "type": "charms",
         "base": "Any",
-        "runes": "Ber,Ham,Ber,Vex"
+        "runes": "Ber,Ham,Ber,Vex",
+        "stats": {
+            "stamina" : 1000,
+            "energy_p" : 15,
+            "energy" : 2200,
+            "all_talents" : 1,
+            "elemental_damage" : 15,
+            "elemental_flat" : 450,
+            "all_resist" : 20
+        }
     },
     {
         "name": "Havoc",
         "type": "charms",
         "base": "Any",
-        "runes": "Ber,Wii,Qi,Dam"
+        "runes": "Ber,Wii,Qi,Dam",
+        "stats": {
+            "all_stats" : 1700,
+            "crit_rate" : 2,
+            "crit_damage" : 25,
+            "all_resist" : 15,
+            "speed" : 20,
+            "elementRoll" : "all",
+            "elementRollFlatValue": 1050, 
+            "elementRollPercentValue": 5
+        }
     },
     {
         "name": "Mirage",
         "type": "shields",
         "base": "Any",
-        "runes": "Gul,Lem,Yeet,Rex,Ist"
+        "runes": "Gul,Lem,Yeet,Rex,Ist",
+        "stats": {
+            "block" : 45,
+            "stamina" : 2500,
+            "energy" : 2580,
+            "armor" : 1490,
+            "all_talents" : 2,
+            "mana_per_hit" : 1,
+            "cooldown" : 7,
+            "effect_off": 37,
+            "effect_off_level": 5,
+            "elementRoll" : "all",
+            "elementRollFlatValue": 2050, 
+            "elementRollPercentValue": 15
+        }
     },
     {
         "name": "Shelter",
         "type": "shields",
         "base": "Any",
-        "runes": "Rex,Xeo,Fem,Xeo,Ber"
+        "runes": "Rex,Xeo,Fem,Xeo,Ber", 
+        "stats": {
+            "armor" : 4511,
+            "armor_p" : 15,
+            "block" : 60,
+            "stamina" : 2400,
+            "hp_p" : 10,
+            "life_per_hit" : 1,
+            "mana_per_hit" : 1,
+            "reduction" : 15,
+            "return" : 50,
+            "all_resist" : 25,
+            "effect_off_level" : 5,
+            "lootProperties[10]": 2
+        }
     },
     {
         "name": "Arcane Bastion",
         "type": "shields",
         "base": "Any",
-        "runes": "Vom,Lem,Lem,Ist,Lux"
+        "runes": "Vom,Lem,Lem,Ist,Lux",
+        "stats" : {
+            "block" : 65,
+            "reduction" : 20,
+            "armor_p" : 10,
+            "energy" : 3080,
+            "energy_p" : 10,
+            "armor" : 5060,
+            "max_mana" : 4200,
+            "mana_p" : 22,
+            "mana_rep_p" : 1,
+            "all_talents" : 2,
+            "effect_off": 46,
+            "effect_off_level": 5
+        }
     },
     {
         "name": "Soulbraces",
         "type": "gloves",
         "base": "Any",
-        "runes": "Lux,Wei,Ist"
+        "runes": "Lux,Wei,Ist",
+        "stats": {
+            "armor": 1650,
+            "energy": 2300,
+            "all_talents": 1,
+            "mana_p": 15,
+            "reduction": 10,
+            "cooldown": 5,
+            "life_per_hit": 1,
+            "random_resist": 80,
+            "random_resist2": 50,
+            "effect_off" : 50,
+            "effect_off_level":  1,
+            "elementRoll" : "1,3,4,6",
+            "elementText" : "magic fire poison lightning",
+            "elementRollFlatValue": 1150, 
+            "elementRollPercentValue": 0
+        }
     },
     {
         "name": "Breach Gauntlets",
         "type": "gloves",
         "base": "Any",
-        "runes": "Ox,Von,Wii"
+        "runes": "Ox,Von,Wii",
+        "stats": {
+            "armor" : 2500,
+            "stamina" : 1050,
+            "crit_rate" : 10,
+            "crit_damage" : 10,
+            "cooldown" : 5,
+            "mana_rep" : 500,
+            "random_resist" : 80,
+            "random_resist2" : 50
+        }
     },
+
     {
         "name": "Quickstep",
         "type": "boots",
         "base": "Any",
-        "runes": "Drax,Qi"
+        "runes": "Drax,Qi",
+        "stats": {
+            "armor" : 150,
+            "stamina" : 600,
+            "all_resist" : 25,
+            "all_talents" : 1,
+            "cooldown" : 5,
+            "speed" : 85,
+            "mana_rep" : 150
+        }
     },
     {
         "name": "Thinking cap",
         "type": "helmet",
         "base": "Cap,War hat,Shako",
-        "runes": "Ye,Wei,Tun,Vex"
+        "runes": "Ye,Wei,Tun,Vex",
+        "stats": {
+            "armor":  1,
+            "energy":  3500,
+            "energy_p":  15,
+            "stamina":  900,
+            "all_talents":  2,
+            "mana_p":  20,
+            "mana_rep_p":  2,
+            "elemental_flat":  900,
+            "random_resist":  70,
+            "effect_off" : 38,
+            "effect_off_level":  5
+        }
     },
     {
         "name": "Lightforge",
         "type": "helmet",
         "base": "Hydraskull,Sallet,Skull cap",
-        "runes": "Jah,Tun,Ox,Wii"
+        "runes": "Jah,Tun,Ox,Wii",
+        "stats": {
+            "all_stats": 2000,
+            "all_stats_p" : 7,
+            "crit_rate" : 10,
+            "crit_damage" : 25,
+            "all_resist" : 15,
+            "elementRoll" : "all",
+            "elementRollFlatValue": 1450, 
+            "elementRollPercentValue": 10
+        }
     },
     {
         "name": "Scholar",
         "type": "helmet",
         "base": "Cap,War hat,Shako",
-        "runes": "Wei,Co,Xeo"
+        "runes": "Wei,Co,Xeo",
+        "stats": {
+            "armor" :500,
+            "stamina" : 600,
+            "all_resist" : 25,
+            "elemental_damage" : 5,
+            "elemental_flat" : 350,
+            "all_talents" : 1,
+            "mana_rep_p" : 2            
+        }
     }
 ]
