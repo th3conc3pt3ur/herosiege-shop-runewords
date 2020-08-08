@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "damage"
+    },
+    {
+        "id": 1,
+        "name": "magic"
+    },
+    {
+        "id": 2,
+        "name": "cold"
+    },
+    {
+        "id": 3,
+        "name": "fire"
+    },
+    {
+        "id": 4,
+        "name": "poison"
+    },
+    {
+        "id": 5,
+        "name": "wind"
+    },
+    {
+        "id": 6,
+        "name": "lightning"
+    }
+]
