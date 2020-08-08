@@ -1,143 +1,515 @@
 [
     {
+        "id": 1,
         "name": "Breath of the Dying",
         "type": "weapon",
         "base": "Short Axe,Hand Axe,Wood Cutter,Flail,Hammer 1H",
-        "runes": "Lem,Jah,Drax,Hel,Lem,Xeo"
+        "runes": "Lem,Jah,Drax,Hel,Lem,Xeo",
+        "stats": {
+            "damage" :19000,
+            "attack_speed" :2800,
+            "aspeed_p" :15,
+            "all_talents" :2,
+            "poison_damage" :85,
+            "poison_flat" :2300,
+            "all_stats" :1550,
+            "crit_damage" :50,
+            "dodge" :10,
+            "effect_off": 9,
+            "effect_off_level": 5,
+            "elementRoll" : "0,2,6,5,3",
+            "elementRollFlatValue": 2550, 
+            "elementRollPercentValue": 70
+        }
     },
     {
+        "id": 4,
         "name": "Sleight",
         "type": "weapon",
         "base": "Crossbow",
-        "runes": "Fem,Fox,Nol,Drax,Efoel"
+        "runes": "Fem,Fox,Nol,Drax,Efoel",
+        "stats": {
+            "damage" : 13800,
+            "damage_f" : 2000,
+            "attack_speed" : 2450,
+            "strength" : 2120,
+            "stamina" : 3200,
+            "aspeed_p" : 20,
+            "speed" : 30,
+            "all_talents" : 2,
+            "crit_rate" : 5,
+            "crit_damage" : 25,
+            "dodge" : 10,
+            "life_per_hit" : 1,
+            "lootProperties[10]": 3,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 2,
         "name": "Windstride",
         "type": "weapon",
         "base": "Longbow",
-        "runes": "Hae,Jah,Nut,Fem,Def"
+        "runes": "Hae,Jah,Nut,Fem,Def",
+        "stats": {
+            "damage" : 21800,
+            "damage_f" : 2100,
+            "attack_speed" : 3450,
+            "strength" : 3120,
+            "stamina" : 3200,
+            "aspeed_p" : 20,
+            "speed" : 30,
+            "damage_p" : 65,
+            "dodge" : 35,
+            "life_per_hit" : 5,
+            "lootProperties[10]": 1,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 3,
         "name": "Potency",
         "type": "weapon",
         "base": "Short war bow",
-        "runes": "Def,Nut,Ox,Voj,Wii,Dau"
+        "runes": "Def,Nut,Ox,Voj,Wii,Dau",
+        "stats": {
+            "damage" : 20000,
+            "attack_speed" : 2500,
+            "aspeed_p" : 15,
+            "strength" : 2820,
+            "stamina" : 2500,
+            "crit_rate" : 10,
+            "crit_damage" : 35,
+            "damage_p" : 30,
+            "damage_f" : 2300,
+            "speed" : 25,
+            "dodge" : 15,
+            "effect_off": 29,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 24,
         "name": "Ravager",
         "type": "weapon",
         "base": "2h weapon",
-        "runes": "Von,Ham,Yeet,Dau,Def,Aux"
+        "runes": "Von,Ham,Yeet,Dau,Def,Aux",
+        "stats": {
+            "damage" : 25600,
+            "attack_speed" : 1520,
+            "aspeed_p" : 15,
+            "life_per_hit" : 2,
+            "strength" : 2520,
+            "stamina" : 3800,
+            "all_talents" : 2,
+            "cooldown" : 5,
+            "reduction" : 15,
+            "speed" : 20,
+            "lootProperties[10]" : 5,
+            "effect_off_level" : 5,
+            "elementRoll" : "0,2,6,5,3",
+            "elementRollFlatValue": 3150, 
+            "elementRollPercentValue": 80
+        }
     },
     {
+        "id": 23,
         "name": "Perdition",
         "type": "weapon",
         "base": "1h sword or axe",
-        "runes": "Jex,Aux,Jah,Yeet"
+        "runes": "Jex,Aux,Jah,Yeet",
+        "stats": {
+            "attack_speed" : 2526,
+            "damage" : 15872,
+            "aspeed_p" : 10,
+            "all_stats" : 1050,
+            "strength_p" : 20,
+            "speed" : 25,
+            "cooldown" : 5,
+            "all_talents" : 1,
+            "life_per_hit" : 4,
+            "lootProperties[10]" : 3,
+            "effect_off_level" : 5,
+            "elementRoll" : "0,2,6,5,3",
+            "elementRollFlatValue": 2550, 
+            "elementRollPercentValue": 70
+        }
     },
     {
+        "id": 26,
         "name": "Judge",
         "type": "weapon",
         "base": "1h hammer",
-        "runes": "Hae,Drax,Efoel,Nut,Rex"
+        "runes": "Hae,Drax,Efoel,Nut,Rex",
+        "stats": {
+            "damage" : 15825,
+            "attack_speed" : 2050,
+            "stamina" : 3200,
+            "reduction" : 15,
+            "block" : 15,
+            "life_per_hit" : 4,
+            "armor_p" : 10,
+            "block" : 10,
+            "dodge" : 10,
+            "cooldown" : 5,
+            "effect_off" : 32,
+            "effect_off_level": 5,
+            "elementRoll" : "0,2,6,5,3",
+            "elementRollFlatValue": 2550, 
+            "elementRollPercentValue": 70
+        }
     },
     {
+        "id": 29,
         "name": "Kogarasumaru",
         "type": "weapon",
         "base": "2h katana",
-        "runes": "Jah,Tun,Def,Sal,Wii,Wii"
+        "runes": "Jah,Tun,Def,Sal,Wii,Wii",
+        "stats": {
+            "damage" : 28025,
+            "attack_speed" : 3250,
+            "strength" : 2665,
+            "stamina" : 3400,
+            "damage_f" : 3080,
+            "damage_p" : 75,
+            "aspeed_p" : 20,
+            "life_per_hit" : 2,
+            "mana_per_hit" : 2,
+            "crit_rate" : 25,
+            "crit_damage" : 35,
+            "dodge" : 20,
+            "effect_off" : 40,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 30,
         "name": "BigJoe",
         "type": "weapon",
         "base": "Chainsaw",
-        "runes": "Def,Dau,Fem,Yeet,Yeet,Jah"
+        "runes": "Def,Dau,Fem,Yeet,Yeet,Jah",
+        "stats": {
+            "_damage" : 25600,
+            "_attack_speed" : 3520,
+            "_aspeed_p" : 20,
+            "_life_per_hit" : 4,
+            "_mana_per_hit" : 2,
+            "_strength" : 3020,
+            "_stamina" : 3800,
+            "_all_stats_p" : 10,
+            "_damage_p" : 65,
+            "_damage_f" : 2526,
+            "_fire_damage" : 75,
+            "_fire_flat" : 3400,
+            "_speed" : 20,
+            "_dodge" : 40,
+            "_all_talents" : 1,
+            "effect_off" : 41,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 31,
         "name": "Valkyrie",
         "type": "weapon",
         "base": "1h javelin",
-        "runes": "Yeet,Lem,Def,Co,Nut"
+        "runes": "Yeet,Lem,Def,Co,Nut",
+        "stats": {
+            "stamina" : 2300,
+            "strength" : 2000,
+            "aspeed_p" : 25,
+            "attack_speed" : 3726,
+            "damage" : 18872,
+            "elemental_damage" : 75,
+            "elemental_flat" : 1800,
+            "speed" : 25,
+            "dodge" : 15,
+            "effect_off" : 42,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 22,
         "name": "Preacher",
         "type": "weapon",
         "base": "Book",
-        "runes": "Ber,Lux,Vex,Ist"
+        "runes": "Ber,Lux,Vex,Ist",
+        "stats": {
+            "damage" : 11080,
+            "attack_speed" : 4460,
+            "aspeed_p" : 10,
+            "energy" : 2208,
+            "mana_rep_p" : 2,
+            "stamina" : 1300,
+            "all_talents" : 1,
+            "mana_per_hit" : 1,
+            "cooldown" : 5,
+            "all_resist" : 15,
+            "effect_off" : 30,
+            "effect_off_level": 5,
+            "elementRoll" : "1,4,3",
+            "elementRollFlatValue": 2150, 
+            "elementRollPercentValue": 75
+        }
     },
     {
+        "id": 25,
         "name": "Catastrophe",
         "type": "weapon",
         "base": "2h staff",
-        "runes": "Ist,Yeet,Vex,Def,Ist,Fio"
+        "runes": "Ist,Yeet,Vex,Def,Ist,Fio",
+        "stats":{
+            "damage" : 22920,
+            "attack_speed" : 2488,
+            "aspeed_p" : 15,
+            "energy" : 3400,
+            "stamina" : 3200,
+            "mana_per_hit" : 1,
+            "life_per_hit" : 2,
+            "fire_flat" : 4825,
+            "fire_damage" : 95,
+            "speed" : 40,
+            "all_talents" : 3,
+            "reduction" : 20,
+            "block" : 20,
+            "fire_resist" : 100,
+            "effect_off": 31,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 27,
         "name": "Will of Thanos",
         "type": "weapon",
         "base": "2h Staff",
-        "runes": "Lem,Ist,Ist,Efoel,Rex,Lem"
+        "runes": "Lem,Ist,Ist,Efoel,Rex,Lem",
+        "stats": {
+            "damage" : 22280,
+            "stamina" : 3400,
+            "armor" : 4100,
+            "armor_p" : 15,
+            "attack_speed" : 2420,
+            "energy" : 2200,
+            "poison_flat" : 4800,
+            "poison_damage" : 105,
+            "max_hp" : 4255,
+            "block" : 45,
+            "all_talents" : 3,
+            "reduction" : 15,
+            "effect_off" : 33,
+            "effect_off_level": 1
+        }
     },
     {
+        "id": 28,
         "name": "Revelation",
         "type": "weapon",
         "base": "Book",
-        "runes": "Aux,Ham,Ist,Von,Hyg"
+        "runes": "Aux,Ham,Ist,Von,Hyg",
+        "stats": {
+            "damage" : 14080,
+            "attack_speed" : 3460,
+            "aspeed_p" : 15,
+            "energy" : 2208,
+            "stamina" : 2300,
+            "mana_per_hit" : 1,
+            "elemental_damage" : 70,
+            "elemental_flat" : 2150,
+            "cooldown" : 5,
+            "effect_off": 39,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 35,
         "name": "Ascendancy",
         "type": "weapon",
         "base": "Dagger",
-        "runes": "Ist,Lux,Wei"
+        "runes": "Ist,Lux,Wei",
+        "stats": {
+            "damage" : 4000,
+            "attack_speed" : 4526,
+            "aspeed_p" : 20,
+            "mana_p" : 21,
+            "mana_rep" : 405,
+            "elemental_damage" : 70,
+            "elemental_flat" : 1800,
+            "all_talents" : 1,
+            "speed" : 15,
+            "effect_off": 47,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 33,
         "name": "Mjolner",
         "type": "weapon",
         "base": "1h hammer",
-        "runes": "Jex,Jex,Ist,Jex,Rex"
+        "runes": "Jex,Jex,Ist,Jex,Rex",
+        "stats": {
+            "attack_speed": 3726,
+            "damage": 18872,
+            "stamina": 3300,
+            "strength": 3200,
+            "aspeed_p": 35,
+            "lightning_damage": 95,
+            "lightning_flat": 3800,
+            "speed": 25,
+            "block": 15,
+            "effect_off": 44,
+            "effect_off_level": 40
+        }
     },
     {
+        "id": 36,
         "name": "Sovereignty",
         "type": "weapon",
         "base": "1h spellblade",
-        "runes": "Vex,Wei,Lux,Ist,Ist,Lux"
+        "runes": "Vex,Wei,Lux,Ist,Ist,Lux",
+        "stats": {
+            "damage" : 18241,
+            "attack_speed" : 1420,
+            "energy" : 3125,
+            "energy_p" : 20,
+            "mana_p" : 35,
+            "mana_rep" : 925,
+            "magic_damage_p" : 30,
+            "magic_damage_f" : 900,
+            "all_talents" : 2,
+            "cooldown" : 10,
+            "effect_off": 49,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 11,
         "name": "Bristle",
         "type": "armor",
         "base": "Hauberk,Cuirass,Scarab Plate",
-        "runes": "Bo,Efoel,Rex,Nut,Ox"
+        "runes": "Bo,Efoel,Rex,Nut,Ox",
+        "stats": {
+            "armor": 9700,
+            "armor_p": 10,
+            "stamina": 5000,
+            "reduction": 10,
+            "hp_rep_p": 2,
+            "mana_per_hit": 1,
+            "life_per_hit": 1,
+            "block": 15,
+            "dodge": 15,
+            "return": 100,
+            "all_resist": 15
+        }
     },
     {
+        "id": 21,
         "name": "Gladstone Goose's Jacket",
         "type": "armor",
         "base": "Quitted armor,Demonhide armor,Trellised armor",
-        "runes": "Hyg,Hel,Hyg,Hel,Ist,Hyg"
+        "runes": "Hyg,Hel,Hyg,Hel,Ist,Hyg",
+        "stats": {
+            "armor":  777,
+            "all_stats":  777,
+            "magic_find":  150,
+            "cooldown":  7,
+            "dodge":  7,
+            "reduction":  7,
+            "all_resist":  7
+        }
     },
     {
+        "id": 15,
         "name": "Mayhem",
         "type": "armor",
         "base": "Viperhide armor,Leather coat,Serpenthide armor",
-        "runes": "Fio,Dau,Wii,Def,Von,Dam"
+        "runes": "Fio,Dau,Wii,Def,Von,Dam",
+        "stats": {
+            "armor":  7200,
+            "strength":  3550,
+            "stamina":  3600,
+            "crit_rate":  10,
+            "crit_damage":  30,
+            "dodge":  10,
+            "max_mana":  2500,
+            "cooldown":  5,
+            "random_resist":  80,
+            "effect_off": 36,
+            "effect_off_level": 5,
+            "elementRoll" : "all",
+            "elementRollFlatValue": 1050, 
+            "elementRollPercentValue": 0
+        }
     },
     {
+        "id": 14,
         "name": "Shroud of Elements",
         "type": "armor",
         "base": "Viperhide armor,Serpenthide armor,Leather coat",
-        "runes": "Ham,Aux,Jex,Lem,Yeet"
+        "runes": "Ham,Aux,Jex,Lem,Yeet",
+        "stats": {
+            "armor": 3350,
+            "all_talents": 2,
+            "all_stats": 1500,
+            "mana_per_hit": 1,
+            "life_per_hit": 1,
+            "cooldown": 5,
+            "reduction": 10,
+            "random_resist": 80,
+            "effect_off": 35,
+            "effect_off_level": 5,
+            "elementRoll" : "2,6,5,3,1,4",
+            "elementRollFlatValue": 1250, 
+            "elementRollPercentValue": 20
+        }
     },
     {
+        "id": 13,
         "name": "Enigmatic",
         "type": "armor",
         "base": "Hard leather Armor,studded Leather,Dusk Shroud",
-        "runes": "Lux,Vex,Ist"
+        "runes": "Lux,Vex,Ist",
+        "stats": {
+            "armor": 4350,
+            "stamina": 1950,
+            "energy": 4500,
+            "reduction": 10,
+            "all_talents": 1,
+            "energy_p": 15,
+            "mana_per_hit": 1,
+            "cooldown": 5,
+            "dodge": 10,
+            "mana_rep_p": 3,
+            "random_resist": 80,
+            "effect_off": 34,
+            "effect_off_level": 5,
+            "elementRoll" : "3,1,4",
+            "elementRollFlatValue": 2250, 
+            "elementRollPercentValue": 15
+        }
     },
     {
+        "id": 12,
         "name": "Force",
         "type": "armor",
         "base": "Hauberk,Scarab plate,Cuirass",
-        "runes": "Hae,Von,Dau,Ox,Jah,Zod"
+        "runes": "Hae,Von,Dau,Ox,Jah,Zod",
+        "stats": {
+            "armor":  4650,
+            "strength":  9050,
+            "stamina":  2750,
+            "aspeed_p":  15,
+            "damage_f":  3600,
+            "damage_p":  20,
+            "strength_p":  13,
+            "cooldown":  10,
+            "hp_p":  10,
+            "random_resist": 80,
+            "effect_off": 29,
+            "effect_off_level": 5
+        }
     },
     {
+        "id": 10,
         "name": "Fortress",
         "type": "armor",
         "base": "Steel armor,Templar coat,Sharktooth armor",
@@ -160,6 +532,7 @@
         }
     },
     {
+        "id": 32,
         "name": "Enigma",
         "type": "armor",
         "base": "Hard leather armor,Studded leather,Dusk shroud",
@@ -179,6 +552,7 @@
         }
     },
     {
+        "id": 17,
         "name": "Rainbow",
         "type": "charms",
         "base": "Any",
@@ -194,6 +568,7 @@
         }
     },
     {
+        "id": 18,
         "name": "Havoc",
         "type": "charms",
         "base": "Any",
@@ -210,6 +585,7 @@
         }
     },
     {
+        "id": 6,
         "name": "Mirage",
         "type": "shields",
         "base": "Any",
@@ -230,6 +606,7 @@
         }
     },
     {
+        "id": 5,
         "name": "Shelter",
         "type": "shields",
         "base": "Any",
@@ -250,6 +627,7 @@
         }
     },
     {
+        "id": 34,
         "name": "Arcane Bastion",
         "type": "shields",
         "base": "Any",
@@ -270,6 +648,7 @@
         }
     },
     {
+        "id": 19,
         "name": "Soulbraces",
         "type": "gloves",
         "base": "Any",
@@ -293,6 +672,7 @@
         }
     },
     {
+        "id": 20,
         "name": "Breach Gauntlets",
         "type": "gloves",
         "base": "Any",
@@ -310,6 +690,7 @@
     },
 
     {
+        "id": 16,
         "name": "Quickstep",
         "type": "boots",
         "base": "Any",
@@ -325,6 +706,7 @@
         }
     },
     {
+        "id": 7,
         "name": "Thinking cap",
         "type": "helmet",
         "base": "Cap,War hat,Shako",
@@ -344,6 +726,7 @@
         }
     },
     {
+        "id": 8,
         "name": "Lightforge",
         "type": "helmet",
         "base": "Hydraskull,Sallet,Skull cap",
@@ -360,6 +743,7 @@
         }
     },
     {
+        "id": 9,
         "name": "Scholar",
         "type": "helmet",
         "base": "Cap,War hat,Shako",
