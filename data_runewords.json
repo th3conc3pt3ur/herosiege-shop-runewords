@@ -631,7 +631,7 @@
         "name": "Arcane Bastion",
         "type": "shields",
         "base": "Any",
-        "runes": "Vom,Lem,Lem,Ist,Lux",
+        "runes": "Von,Lem,Lem,Ist,Lux",
         "stats" : {
             "block" : 65,
             "reduction" : 20,
