@@ -41,7 +41,7 @@
             "crit_damage" : 25,
             "dodge" : 10,
             "life_per_hit" : 1,
-            "lootProperties[10]": 3,
+            "effect_aura": 3,
             "effect_off_level": 5
         }
     },
@@ -62,7 +62,7 @@
             "damage_p" : 65,
             "dodge" : 35,
             "life_per_hit" : 5,
-            "lootProperties[10]": 1,
+            "effect_aura": 1,
             "effect_off_level": 5
         }
     },
@@ -105,7 +105,7 @@
             "cooldown" : 5,
             "reduction" : 15,
             "speed" : 20,
-            "lootProperties[10]" : 5,
+            "effect_aura" : 5,
             "effect_off_level" : 5,
             "elementRoll" : "0,2,6,5,3",
             "elementRollFlatValue": 3150, 
@@ -128,7 +128,7 @@
             "cooldown" : 5,
             "all_talents" : 1,
             "life_per_hit" : 4,
-            "lootProperties[10]" : 3,
+            "effect_aura" : 3,
             "effect_off_level" : 5,
             "elementRoll" : "0,2,6,5,3",
             "elementRollFlatValue": 2550, 
@@ -189,21 +189,21 @@
         "base": "Chainsaw",
         "runes": "Def,Dau,Fem,Yeet,Yeet,Jah",
         "stats": {
-            "_damage" : 25600,
-            "_attack_speed" : 3520,
-            "_aspeed_p" : 20,
-            "_life_per_hit" : 4,
-            "_mana_per_hit" : 2,
-            "_strength" : 3020,
-            "_stamina" : 3800,
-            "_all_stats_p" : 10,
-            "_damage_p" : 65,
-            "_damage_f" : 2526,
-            "_fire_damage" : 75,
-            "_fire_flat" : 3400,
-            "_speed" : 20,
-            "_dodge" : 40,
-            "_all_talents" : 1,
+            "damage" : 25600,
+            "attack_speed" : 3520,
+            "aspeed_p" : 20,
+            "life_per_hit" : 4,
+            "mana_per_hit" : 2,
+            "strength" : 3020,
+            "stamina" : 3800,
+            "all_stats_p" : 10,
+            "damage_p" : 65,
+            "damage_f" : 2526,
+            "fire_damage" : 75,
+            "fire_flat" : 3400,
+            "speed" : 20,
+            "dodge" : 40,
+            "all_talents" : 1,
             "effect_off" : 41,
             "effect_off_level": 5
         }
@@ -527,7 +527,7 @@
             "dodge":  15,
             "all_resist":  20,
             "max_all_resist":  2,
-            "lootProperties[10]" : 6,
+            "effect_aura" : 6,
             "effect_off_level" : 5
         }
     },
@@ -623,7 +623,7 @@
             "return" : 50,
             "all_resist" : 25,
             "effect_off_level" : 5,
-            "lootProperties[10]": 2
+            "effect_aura": 2
         }
     },
     {
